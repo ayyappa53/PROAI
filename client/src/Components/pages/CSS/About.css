@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+@import url(https://fonts.googleapis.com/css?family=Amaranth);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+@import url("https://fonts.googleapis.com/css?family=Cookie");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    font-family: Courgette;
+}
+.page-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
+/* Set default font family */
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Styles for the hero banner */
+.hero {
+    height: 600px;
+    background-color: #f5f5f5;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.more-data {
+    height: 600px;
+    background-color: #f5f5f5;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.more-data {
+    margin-top: 25px;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.more-data p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    margin-top: 250px;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.feature-box {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.feature-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.feature-box p {
+    font-size: 16px;
+}
+
+/* Styles for mobile screens */
+@media (max-width: 769px) {
+    .features {
+        padding: 30px 10px;
+    }
+
+    .feature-box {
+        flex-basis: calc(100% - 10px);
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 646px) {
+    .more-data {
+        height: 815px;
+        background-color: #f5f5f5;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .more-data {
+        margin-top: 20px;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .more-data p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .hero h1 {
+        margin-top: 250px;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 426px) {
+    .more-data {
+        height: 890px;
+        background-color: #f5f5f5;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 383px) {
+    .more-data {
+        height: 1000px;
+        background-color: #f5f5f5;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 336px) {
+    .cta-button {
+        display: none;
+    }
+}
+
+/* Styles for the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+.footer-link {
+    margin-right: 20px;
+}
